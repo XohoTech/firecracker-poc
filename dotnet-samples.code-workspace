@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "dotnet-core-api-app"
+		},
+		{
+			"path": "hello-world"
 		}
 	]
 }
