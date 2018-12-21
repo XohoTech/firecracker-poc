@@ -20,6 +20,7 @@ tar -xzf apk-tools-static-2.10.1-r0.apk
 
 sudo ./sbin/apk.static -X http://dl-cdn.alpinelinux.org/alpine/v3.8/main --allow-untrusted --root ./root/ --initdb add libgcc
 sudo ./sbin/apk.static -X http://dl-cdn.alpinelinux.org/alpine/v3.8/main --allow-untrusted --root ./root/ add libstdc++
+sudo ./sbin/apk.static -X http://dl-cdn.alpinelinux.org/alpine/v3.8/main --allow-untrusted --root ./root/ add libintl
 
 cd ..
 
